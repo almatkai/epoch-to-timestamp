@@ -3,7 +3,7 @@
   "name": "epoch-to-timestamp",
   "title": "Epoch to Timestamp",
   "description": "Quickly convert a Unix epoch, in seconds or milliseconds, to a human-readible timestamp.",
-  "icon": "extension-icon.png",
+  "icon": "assets/extension-icon.png",
   "author": "almatkai",
   "contributors": ["bgreenlee"],
   "categories": ["Developer Tools"],
