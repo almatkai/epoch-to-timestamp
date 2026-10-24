@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.epoch-to-timestamp",
+  "slug": "epoch-to-timestamp",
+  "name": "Epoch to Timestamp",
+  "version": "0.1.0",
+  "description": "Quickly convert a Unix epoch, in seconds or milliseconds, to a human-readible timestamp. Original author: bgreenlee; Tezbar adaptation: almatkai.",
+  "icon": "/extensions/icons/epoch-to-timestamp.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.epoch-to-timestamp"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "epoch",
+      "title": "Epoch",
+      "description": "Convert a Unix epoch in your clipboard, in seconds or milliseconds, to a human-readible timestamp.",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "OS UI and real clipboard/window integration have not been exercised."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "OS UI and real clipboard/window integration have not been exercised."
+    }
+  ]
+}
